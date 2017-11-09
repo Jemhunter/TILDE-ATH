@@ -1,0 +1,40 @@
+This is a modifided version of the Drocta ~ATH interpreter.
+
+Credit and a huge thanks goes to drocta for making the original version (Which is amazing btw)
+
+This is functionally identical to the drocta ~ATH main version except it runs an extra python window which:
+•allows user to input the name of an object (variable) which is then killed in the main code
+•if the user types: "?" instead it will produce a list of all objects currently alive in the ~ATH script
+
+This may seem pointless and potentially code-breaking but it serves a very specific purpose: to allow for 
+a more "realistic" ~ATH usage. As ~ATH is supposed to be able to detect the death/destruction of an object
+some scripts which work in the universe ,e.g. Karkat's idea for a program to send his will, do not really
+work as it cannot detect the death but this allows for such code to be written and tested as though it were
+working properly.
+It effectively replaces a sensor in the computer that would (if such a thing were possible) detect the death
+and makes that process manual.
+
+It was just an idea I had to make it work more accurate/usefull but I am aware many will disagree (As every
+implementation/idea to do with ~ATH is modified by users as we don't know enough and it doesn't work for 
+real) but I thought it was worth sharing none the less as some might find it interesting.
+
+IMPORTANT!:
+This implementation is converted to work for python 2 - use the python 3 implementation if you have that
+version of python installed
+
+This is setup to work on windows so if you use another operating system there are commented lines at the
+bottom of "editor.py" and "interp_2.py" files which have comments to indicate that those lines need changing.
+An OS specific command for pausing (editor) and closing all "py.exe" programs (interp_2) needs to be entered 
+into the os.system() brackets to make it work fully (though these are not integral to the function and can
+just be removed)
+
+To learn how to use the interpreter refer to drocta's work and documentation:
+http://learn-tilde-ath.tumblr.com/   - for drocta ~ATH syntax / explanation
+https://github.com/drocta/TILDE-ATH  - for the source code of the original
+
+Once again this was only possible with the huge amount of work by drocta (https://github.com/drocta) 
+
+
+Note to Drocta (Original creator):
+If you have any issue with this or the use of your work I am very sorry, please submit an issue on this an I
+will remove it immediately if you should want. (Also if you do like it feel free to use my code for anything)
