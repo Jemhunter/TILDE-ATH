@@ -1,0 +1,8 @@
+To explain how I am handling versions in the edits I make to this forked version.
+
+The main file of the fork contains Drocta ~ATH version of the interpreter.
+
+The file Interactive version contains my edited version which works as an extension to the main version to add a different kind of
+functionality on top of the original (not necessarily better just different) but still functions the same and all programs written for
+the main version will still work. Two versions for both python 2 and 3 (I cannot always guarantee python 2 version will work flawlessly as
+I primarily work in pyhton 3.)
